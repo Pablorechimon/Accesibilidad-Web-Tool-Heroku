@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -jar build/libs/Accesibilidad-Web-0.0.1-SNAPSHOT.jar -Dserver.port=$PORT $JAR_OPTS
+web: java -jar build/libs/Accesibilidad-Web-0.0.1-SNAPSHOT.jar $JAR_OPTS

@@ -394,7 +394,7 @@ public class DemoController {
 		
 		// EjecuciÃ³n de cada una de las tecnicas
 		for(Principio principio: principios){
-			principio.ejecutarPautas("https://www.google.com");
+			principio.ejecutarPautas(this.URL);
 		}
 		
 		// Output de la API
